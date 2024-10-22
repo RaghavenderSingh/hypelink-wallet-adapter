@@ -1,0 +1,48 @@
+# Ignore the node_modules folder (contains installed dependencies)
+node_modules/
+
+# Ignore npm and yarn lock files (if you prefer one lock file over the other)
+package-lock.json
+yarn.lock
+
+# Ignore build directories (including dist)
+dist/
+build/
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore IDE or editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage reports from test runners
+coverage/
+
+# Ignore generated static files (for static site generators like Next.js)
+out/
+
+# Ignore any temporary files or directories
+tmp/
+temp/
+
+# Ignore ESLint and Prettier cache files
+.eslintcache
+.prettiercache
+
+# Ignore TypeScript build artifacts
+*.tsbuildinfo

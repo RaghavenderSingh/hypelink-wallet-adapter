@@ -1,0 +1,40 @@
+{
+  "name": "@hyperlink/solana-wallet-adapter",
+  "version": "1.0.0",
+  "description": "Custom Solana wallet adapter with Web3Auth integration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "solana",
+    "wallet",
+    "web3"
+  ],
+  "author": "Raghavender Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.8",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/web3.js": "^1.95.4",
+    "@web3auth/base": "^7.2.0",
+    "@web3auth/base-solana-adapter": "^9.3.0",
+    "@web3auth/core": "^4.6.0",
+    "@web3auth/modal": "^7.2.0",
+    "@web3auth/openlogin-adapter": "^7.2.0",
+    "@web3auth/solana-provider": "^7.2.0"
+  }
+}
